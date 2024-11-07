@@ -1,0 +1,150 @@
+body{
+    margin: 0; 
+        font-family: "Varela Round", serif;
+      }
+    
+
+nav{
+    font-weight: bold; 
+    display: flex;
+    gap: 120px;
+    
+}
+
+button{
+    font-weight: bold;
+}
+.btn {
+    color: white;
+    background-color: black;
+}
+.top{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+.menu{
+    display: none;
+}
+
+a{
+    margin-top: 8px;
+}
+
+main {
+margin-top: 80px;
+}
+
+.hero-section{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.great{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-section-a {
+width: 500px;
+}
+
+.values {
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.values-a {
+    width: 500px;
+}
+
+.mgt-team {
+    margin: 0px 80px 0px 80px;
+}
+
+.services{
+    margin: 80px 80px 80px 80px; 
+}
+
+.display {
+    display: flex;
+    margin: 0px 80px 0px 80px;
+}
+
+.words{
+    padding: 80px 0px 80px 0px;
+    justify-content: space-between;
+}
+
+.btn-services{
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+.display>div{
+    margin: 10px 10px;
+}
+
+#card-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    align-items: center;
+}
+
+/* medium screen size */
+@media (min-width: 768px) and (max-width: 992px){
+    #card-section{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+nav {
+    display: none;
+}
+
+.menu{
+    display: block;
+    width: 30px;
+}
+.top{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+}
+/* mobile screen size */
+@media (min-width: 576px) and (max-width: 768px){
+    #card-section{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .mgt-team{
+        margin: 0px 40px 0px 40px;
+    }
+}
+
+/* extra small screen size */
+@media (min-width: 576px){
+    #card-section{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+}
+.mgt-team{
+    margin: 0px 20px 0px 20px;
+}
+}  
+
